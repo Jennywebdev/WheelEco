@@ -1,0 +1,68 @@
+.ItemBoxManagement {
+  background-color: #bcceb5;
+  border-radius: 25px;
+  padding: 20px;
+  width: 80%;
+  align-content: center;
+  text-decoration: none;
+  color: black;
+  height: 15%;
+}
+
+.ItemBoxManagementLink {
+  background-color: #bcceb5;
+  border-radius: 25px;
+  padding: 20px;
+  width: 80%;
+  align-content: center;
+  text-decoration: none;
+  color: black;
+  height: 15%;
+}
+
+.iconManagement {
+  height: 200px;
+}
+
+.ManagementPageItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 25px;
+}
+.title-boxManagement {
+  font-size: 20px;
+width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .ItemBoxManagement {
+    background-color: #bcceb5;
+    border-radius: 25px;
+    padding: 20px;
+    width: 20%;
+    align-content: center;
+    height: 45%;
+  }
+  .ItemBoxManagementLink {
+   background-color: #bcceb5;
+    border-radius: 25px;
+    padding: 20px;
+    width: 20%;
+    height: 45%;
+    align-content: center;
+}
+  .ManagementPageItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 25px;
+    margin-bottom: 100px;
+    height: 68vh;
+  }
+}

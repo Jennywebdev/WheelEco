@@ -1,0 +1,15 @@
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 100px;
+    align-items: center;
+    background-color: #BCCEB5;
+}
+
+.linkpresentation{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}

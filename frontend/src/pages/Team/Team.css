@@ -1,0 +1,100 @@
+.artiste1 {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 25px;
+}
+
+.artiste2 {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 25px;
+}
+
+
+.presentation{
+background-color: #d6e6d0;
+border-radius: 50px ;
+margin: auto;
+  margin-top: 80px;
+  width: 90%;
+  box-shadow: 1px 1px 10px 1px rgba(49, 64, 48, 0.75);
+}
+
+.picTeam {
+  border-radius: 50%;
+  padding: 25px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.namepres {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.paraphpres {
+  font-size: 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+.logopres {
+  width: 100px;
+}
+
+.paraphpres1 {
+  text-align: center;
+  font-size: 15px;
+  margin: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .presentationPage {
+    padding: 20px;
+  }
+  .presentation {
+    margin-top: 80px;
+    width: 60%;
+  }
+  .artiste1 {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+  }
+
+  .artiste2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 25px;
+  }
+
+  .picTeam {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    margin: 0%;
+  }
+
+  .namepres {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+  }
+
+  .paraphpres {
+    font-size: 27px;
+    margin: 15px;
+    text-align: left;
+  }
+  .paraphpres1 {
+    font-size: 27px;
+    margin: 15px;
+    text-align: right;
+  }
+}

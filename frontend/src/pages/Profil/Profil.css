@@ -1,0 +1,233 @@
+
+.globalContainer {
+  padding: 10px;
+}
+
+.img_profil {
+  margin-top: 0.5em;
+  background-color: darkgrey;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  padding: 0.9rem;
+  margin-left: 25%;
+  margin-bottom: 10px;
+  color: darkgray;
+}
+.plus {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3.3rem;
+  margin-top: 3.9rem;
+  font-size: 4.5rem;
+  cursor: pointer;
+}
+
+.title-name .navbarProfile,
+.navbarItemProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 0%;
+}
+.active{
+  text-decoration: none;
+  color: #7ba079;
+}
+.formProfil {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.username {
+  background-color: #bcceb5;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.userbirthday {
+  background-color: #bcceb5;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.userphonecontainer {
+  background-color: #bcceb5;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.useremail {
+  background-color: #bcceb5;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.userpassword {
+  background-color: #bcceb5;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.spanEmail,
+.newemail {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#newemail {
+  border: none;
+  height: 40px;
+  width: 80%;
+  border-radius: 25px;
+  padding: 5px;
+  font-size: 19px;
+}
+
+.spanPassword {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#yourpassword {
+   border: none;
+  height: 40px;
+  width: 80%;
+  border-radius: 25px;
+  padding: 5px;
+  font-size: 19px;
+}
+#newpassword {
+   border: none;
+  height: 40px;
+  width: 80%;
+  border-radius: 25px;
+  padding: 5px;
+  font-size: 19px;
+}
+#repeatnewpassword {
+  border: none;
+  height: 40px;
+  width: 80%;
+  border-radius: 25px;
+  padding: 5px;
+  font-size: 19px;
+}
+
+.navliink {
+  text-decoration: none;
+  color: black;
+}
+
+
+.submitButton {
+  margin: 20px;
+  border-radius: 25px;
+  border: none;
+  padding: 10px;
+  width: 50%;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bolder;
+  background-color: #7ba079;
+}
+
+
+@media screen and (min-width: 769px) {
+  .img_profil {
+    margin-top: 0.5em;
+    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+    padding: 0.9rem;
+    margin-left: 25%;
+    margin-bottom: 10px;
+  }
+  .formProfil {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .plus {
+    margin-left: 7.8rem;
+    margin-top: 4.5rem;
+    font-size: 5rem;
+  }
+
+  .username {
+    background-color: #bcceb5;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding: 0.3rem;
+    height: 17%;
+  }
+
+  .userbirthday {
+    background-color: #bcceb5;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding: 0.3rem;
+    height: 17%;
+  }
+
+  .userphonecontainer {
+    background-color: #bcceb5;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding: 0.3rem;
+    height: 17%;
+  }
+
+  .useremail {
+    background-color: #bcceb5;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 70px;
+    padding: 3rem;
+  }
+
+  .userpassword {
+    background-color: #bcceb5;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding: 1.7rem;
+  }
+  .container-1 {
+    width: 45%;
+  }
+  .container-email-password {
+    width: 45%;
+    margin-top: 3em;
+  }
+  .buttonContainer {
+    width: 100%;
+  }
+  .title-name {
+    padding-left: 2.55rem;
+  }
+  .title-picture {
+    font-size: 20px;
+  }
+  .title-picture-1 {
+    font-size: 20px;
+  }
+}
